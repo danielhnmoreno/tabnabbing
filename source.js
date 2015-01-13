@@ -10,7 +10,7 @@ var HAS_SWITCHED = false;
 
 // Events
 window.onblur = function(){
-  TIMER = setTimeout(changeItUp, 1000);
+  TIMER = setTimeout(changeItUp, 5000);
 }  
 
 window.onfocus = function(){
